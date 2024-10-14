@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+}
+
+.toolbar {
+   background-color: #525252;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+  /* justify-content: space-around; */
+  padding: 1rem;
+ margin-bottom: 0.2rem;
+}
+
+.toolbar button{
+    background-color: #3b3b33;
+    color: whitesmoke;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+
+.toolbar input{
+    background-color: #3b3b33;
+    /* color: whitesmoke; */
+    padding: 0.2rem;
+    margin: 0.2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+
+.toolbar p{
+    color : white; 
+    margin-right: 2rem; 
+}
+ 
+canvas {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+#colorPicker{
+   color: #525252;
+}
